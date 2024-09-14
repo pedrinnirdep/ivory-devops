@@ -1,8 +1,15 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Laptop, Server, Smartphone } from "lucide-react";
 
 export default function Home() {
+
+  const handleClick = () => {
+    window.location.href = "https://github.com/pedrinnirdep/ivory-devops";
+  }
+
   return (
     <div className="flex flex-col min-h-screen">
       <header className="bg-primary text-primary-foreground py-4">
@@ -45,13 +52,12 @@ export default function Home() {
         >
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold mb-4">
-              Soluções Modernas de Desenvolvimento
+              Teste estágio DevOps – IVORYIT
             </h2>
             <p className="text-xl mb-8">
-              Criamos software, sites e aplicativos móveis com foco em DevOps e
-              design Mobile-First
+              Fluxo de CI/CD utilizando Next.Js - Sonar Cloud - Github Actions - Github Pages
             </p>
-            <Button size="lg">Saiba Mais</Button>
+            <Button onClick={() => handleClick()} size="lg">Acessar Github</Button>
           </div>
         </section>
 
@@ -163,7 +169,7 @@ export default function Home() {
 
       <footer className="bg-primary text-primary-foreground py-8">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2023 IndianSolutions. Todos os direitos reservados.</p>
+          <p>&copy; 2024 IndianSolutions. Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>
