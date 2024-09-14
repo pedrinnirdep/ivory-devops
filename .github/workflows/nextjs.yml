@@ -5,6 +5,10 @@ on:
     workflows: ["SonarCloud analysis"]
     types:
       - completed
+  push:
+  branches:
+    - main
+    - homolog
 
 permissions:
   contents: read
