@@ -6,9 +6,9 @@ on:
     types:
       - completed
   push:
-  branches:
-    - main
-    - homolog
+    branches:
+      - main
+      - homolog
 
 permissions:
   contents: read
