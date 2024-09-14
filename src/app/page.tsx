@@ -61,17 +61,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="sobre" className="py-16">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold mb-8 text-center">Sobre Nós</h2>
-            <p className="text-lg text-center max-w-2xl mx-auto">
-              Somos especialistas em desenvolvimento de soluções tecnológicas
-              modernas, focando em práticas de DevOps e design Mobile-First para
-              entregar produtos de alta qualidade e eficiência.
-            </p>
-          </div>
-        </section>
-
         <section id="devops" className="bg-muted py-16">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 text-center">DevOps</h2>
